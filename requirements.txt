@@ -1,0 +1,7 @@
+# =========================================================
+# Tic-Tac-Toe II v3
+# requirements.txt
+# =========================================================
+
+# Für dieses Projekt werden keine externen Pakete benötigt.
+# Tkinter ist standardmäßig in Python enthalten.
