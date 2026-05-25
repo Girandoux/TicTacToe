@@ -1,12 +1,29 @@
-# Tic-Tac-Toe II v3
+# Tic-Tac-Toe AI Game
 
 ## Überblick
 
-Tic-Tac-Toe II v3 ist eine moderne Desktop-Version des klassischen Tic-Tac-Toe-Spiels, entwickelt mit Python und Tkinter.
+Tic-Tac-Toe AI Game ist eine moderne Desktop-Version des klassischen Tic-Tac-Toe-Spiels, entwickelt mit Python und Tkinter.
 
-Das Projekt wurde erstellt, um Kenntnisse in den Bereichen GUI-Programmierung, objektorientierte Programmierung (OOP), modulare Softwareentwicklung sowie grundlegende Konzepte der künstlichen Intelligenz (KI) praktisch anzuwenden.
+Das Projekt wurde erstellt, um praktische Kenntnisse in den Bereichen GUI-Programmierung, objektorientierte Programmierung (OOP), modulare Softwareentwicklung sowie grundlegende Konzepte der künstlichen Intelligenz (KI) anzuwenden und zu vertiefen.
 
 Der Spieler tritt in einer interaktiven grafischen Benutzeroberfläche gegen einen Computergegner mit verschiedenen Schwierigkeitsgraden an.
+
+---
+
+# Eigene Entwicklung
+
+Dieses Projekt wurde eigenständig konzipiert und entwickelt.
+
+Dabei wurden sowohl die Spiellogik als auch die grafische Benutzeroberfläche, die KI-Funktionen und die modulare Softwarestruktur selbst implementiert.
+
+Besonderer Fokus lag auf:
+
+- sauberer Code-Struktur
+- modularer Entwicklung
+- Benutzerfreundlichkeit
+- GUI-Programmierung
+- praktischer Anwendung von OOP-Konzepten
+- Verbesserung der Python-Kenntnisse durch ein vollständiges Projekt
 
 ---
 
@@ -16,7 +33,7 @@ Der Spieler tritt in einer interaktiven grafischen Benutzeroberfläche gegen ein
 - Spieler gegen Computer
 - Drei KI-Schwierigkeitsgrade
 - Punktestand-System
-- Restart-Funktion
+- Dynamisches Zurücksetzen des Spiels und Punktestands
 - Spielername im Fenster
 - Modulare Projektstruktur
 - Sauber kommentierter Code
@@ -28,23 +45,29 @@ Der Spieler tritt in einer interaktiven grafischen Benutzeroberfläche gegen ein
 # Funktionen
 
 ## GUI-Fenster
+
 Das Spiel verwendet eine grafische Benutzeroberfläche (GUI) mit Tkinter anstelle der Konsole.
 
 ## Punktestand
+
 Der Punktestand zwischen Spieler und Computer wird live aktualisiert.
 
 ## Schwierigkeitsgrade
 
 ### Einfach
+
 Der Computer wählt zufällige Züge.
 
 ### Mittel
+
 Der Computer blockiert mögliche Gewinnzüge des Spielers.
 
 ### Schwer
+
 Der Computer versucht strategisch zu gewinnen und blockiert zusätzlich den Spieler.
 
-## Restart-Button
+## Restart-Funktion
+
 Das Spiel kann jederzeit vollständig zurückgesetzt werden.
 
 ---
@@ -57,6 +80,18 @@ Das Spiel kann jederzeit vollständig zurückgesetzt werden.
 - Modulare Programmierung
 - Eventgesteuerte GUI-Programmierung
 - Grundlegende KI-Logik
+
+---
+
+# Verwendete Konzepte
+
+- Eventgesteuerte Programmierung
+- Zustandsverwaltung
+- GUI-Interaktionen
+- Modulare Architektur
+- Spiellogik
+- KI-Entscheidungslogik
+- Benutzerinteraktion
 
 ---
 
@@ -79,11 +114,10 @@ Das Projekt wurde modular aufgebaut, um Wartbarkeit, Übersichtlichkeit und Wied
 tic-tac-toe/
 │
 ├── screenshots/
-│   ├── Hauptfenster_Spiels.png
-│   ├── Schwierigkeitsgrad_Fenster.png
-│   ├── Spiel_gewonnen.png
-│   ├── main-window.png
-│   └── Spiel_während_Spielens.png
+│   ├── hauptfenster.png
+│   ├── gameplay.png
+│   ├── winner-screen.png
+│   └── difficulty-selection.png
 │
 ├── .gitignore
 ├── README.md
@@ -99,27 +133,27 @@ tic-tac-toe/
 
 # Screenshots
 
-## Hauptfenster des Spiels
+## Hauptfenster
 
-![Hauptfenster](screenshots/Hauptfenster_Spiels.png)
+![Hauptfenster](screenshots/hauptfenster.png)
 
 ---
 
 ## Auswahl des Schwierigkeitsgrades
 
-![Schwierigkeitsgrad](screenshots/Schwierigkeitsgrad_Fenster.png)
+![Schwierigkeitsgrad](screenshots/difficulty-selection.png)
 
 ---
 
 ## Spiel während des Spielens
 
-![Gameplay](screenshots/Spiel_während_Spielens.png)
+![Gameplay](screenshots/gameplay.png)
 
 ---
 
 ## Gewinnfenster
 
-![Spiel gewonnen](screenshots/Spiel_gewonnen.png)
+![Gewinnfenster](screenshots/winner-screen.png)
 
 ---
 
@@ -200,6 +234,22 @@ Dieses Projekt wurde entwickelt, um praktische Kenntnisse in folgenden Bereichen
 
 ---
 
+# Technische Herausforderungen
+
+Während der Entwicklung wurden verschiedene technische Herausforderungen gelöst:
+
+- Verwaltung der Spiellogik
+- Dynamische Aktualisierung der GUI
+- Umsetzung verschiedener KI-Schwierigkeitsgrade
+- Synchronisation zwischen Benutzeroberfläche und Spielfeldlogik
+- Strukturierung des Projekts in mehrere Module
+- Verwaltung des Punktesystems
+- Dynamisches Zurücksetzen des Spiels und Punktestands
+
+Diese Herausforderungen halfen dabei, praktische Erfahrungen in der Python-Softwareentwicklung zu sammeln.
+
+---
+
 # Warum dieses Projekt wichtig ist
 
 Dieses Projekt demonstriert die Fähigkeit:
@@ -221,6 +271,8 @@ Darüber hinaus zeigt das Projekt praktische Softwareentwicklungs-Konzepte, die 
 - Online-Multiplayer
 - Highscore-System
 - Verbesserte Benutzeroberfläche
+- Dark Mode
+- EXE-Version für Windows
 
 ---
 
